@@ -1,0 +1,554 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16236 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-03051" at "2026-02-22T10:25:22.1254961Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-22T10:25:22Z
+
+COMMAND LINE ARGUMENTS:
+E:\unity\6000.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Unity Project/sunnyland2DВ4312
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64709
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/Unity Project/sunnyland2DВ4312
+E:/Unity Project/sunnyland2DВ4312
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [24500]  Target information:
+
+Player connection [24500]  * "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 630932868 [EditorId] 630932868 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24500]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 630932868 [EditorId] 630932868 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 335.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
+[Subsystems] Discovering subsystems at path E:/unity/6000.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Project/sunnyland2DВ4312/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'E:/unity/6000.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/6000.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/6000.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003422 seconds.
+- Loaded All Assemblies, in  1.136 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              e3f17a72bf314cc39d55cd8ec5cb05eb
+  Correlation Id:          f5bac9d733b35ea10d29f85a78885900
+  External correlation Id: 752116408158686995
+  Machine Id:              fl+u5cdejddwypgSW6GhqK0MRfU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-03051" (connect: 0.00s, validation: 0.00s, handshake: 3.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-03051-notifications" at "2026-02-22T10:25:25.2668554Z"
+[Licensing::Module] Licensing Background thread has ended after 3.14s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.030 seconds
+Domain Reload Profiling: 2165ms
+	BeginReloadAssembly (392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (492ms)
+			TypeCache.Refresh (484ms)
+				TypeCache.ScanAssembly (447ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1031ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (918ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (125ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171059585381-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.437 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.248 seconds
+Domain Reload Profiling: 2682ms
+	BeginReloadAssembly (354ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (897ms)
+		LoadAssemblies (683ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (407ms)
+			TypeCache.Refresh (308ms)
+				TypeCache.ScanAssembly (282ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (638ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5014 unused Assets / (1.5 MB). Loaded Objects now: 5597.
+Memory consumption went from 103.3 MB to 101.8 MB.
+Total: 16.230300 ms (FindLiveObjects: 1.127700 ms CreateObjectMapping: 1.101600 ms MarkObjects: 11.415700 ms  DeleteObjects: 2.583600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3082.296977 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Border.png
+  artifactKey: Guid(f728b782d4a108045accfa920e1196de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Border.png using Guid(f728b782d4a108045accfa920e1196de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd73c39f57ae256e6ac8cee576f8d414') in 0.2708109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/SimplePixelUI/fonts/Font2/readme.txt
+  artifactKey: Guid(6dc5aebc2ecd35f418a13cabf69574d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/fonts/Font2/readme.txt using Guid(6dc5aebc2ecd35f418a13cabf69574d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '452a5e908149351429ba060b5734392b') in 0.0205423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square
+  artifactKey: Guid(5ace1880ad3188c468dbca7724cbf7ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square using Guid(5ace1880ad3188c468dbca7724cbf7ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2ee92a0c9624c3521757219f750be99') in 0.0162451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical
+  artifactKey: Guid(4970a1dfceb1d194bb6f636b87a839f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical using Guid(4970a1dfceb1d194bb6f636b87a839f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2f5efb7e37f758363899dde23d06bb3') in 0.0167708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SimplePixelUI/fonts/Font1/license.txt
+  artifactKey: Guid(4880c10f3e217bc41b2e82a577bcd5fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/fonts/Font1/license.txt using Guid(4880c10f3e217bc41b2e82a577bcd5fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cd79338ef73d053a5873eddd5ad7a35') in 0.017277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderLR.prefab
+  artifactKey: Guid(f50c718fa044d3c49ab1322e176439a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderLR.prefab using Guid(f50c718fa044d3c49ab1322e176439a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5802da990aefb57c15b3a69f469a7ef') in 0.1110071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png
+  artifactKey: Guid(e4b7033fca3bc0e4192a1b77d73431d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png using Guid(e4b7033fca3bc0e4192a1b77d73431d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '929a34a1d94c90edb7c4837c7833cf97') in 0.0269538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal
+  artifactKey: Guid(13b51ba57de5a3b4e9eaec6ad01880a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal using Guid(13b51ba57de5a3b4e9eaec6ad01880a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd75af23d19b7251412cdbd41faebcbcb') in 0.0146092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/handle.png
+  artifactKey: Guid(ca2a482305641c34d93a0ea0e546cf7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/handle.png using Guid(ca2a482305641c34d93a0ea0e546cf7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad16cbb581bbef31171bef4bbb58703a') in 0.0235075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_1.prefab
+  artifactKey: Guid(898380e1ddcafc24d8b877b904e71c36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_1.prefab using Guid(898380e1ddcafc24d8b877b904e71c36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4da6993dacaff5eb7622cefdb76b3a38') in 0.0439952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab
+  artifactKey: Guid(256b26fa97e69fd4786369541c2e5c65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab using Guid(256b26fa97e69fd4786369541c2e5c65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38923047ab468d1a0fa4986efcd110fd') in 0.0397613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 LR.prefab
+  artifactKey: Guid(6a5002e57be84ed4aa56370c2827d4df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 LR.prefab using Guid(6a5002e57be84ed4aa56370c2827d4df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c917a7c63f5ac4aeef6304f299b45f7') in 0.0265946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/square/Inventory.prefab
+  artifactKey: Guid(6668362e08762d74d8475a357f188a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/square/Inventory.prefab using Guid(6668362e08762d74d8475a357f188a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4694f152ee1ad858d68ea83e77f1aeb') in 0.0206239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png
+  artifactKey: Guid(79042c13debeb044796be3b9aabbc85f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png using Guid(79042c13debeb044796be3b9aabbc85f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6f459a47c7a4d57143ce7e91a830331') in 0.0279935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL .prefab
+  artifactKey: Guid(6a468cadb7ba3444693c937c55795799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL .prefab using Guid(6a468cadb7ba3444693c937c55795799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01d83b7d545094bfcc9cc55f547f7646') in 0.0341177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png
+  artifactKey: Guid(84c7515b38823fe45883fb4257d278ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png using Guid(84c7515b38823fe45883fb4257d278ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd436a726e280df9125031bd25fe8b44b') in 0.0284268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png
+  artifactKey: Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png using Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a68eb7f77a814c6e86edf74b85de1b38') in 0.0215665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_1.prefab
+  artifactKey: Guid(baf8abacef080a54687653ee61582d8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_1.prefab using Guid(baf8abacef080a54687653ee61582d8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95691523be1942e92fbcf5b87faa571c') in 0.024921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePixelUI/artwork/gray/rounded
+  artifactKey: Guid(8fceee643229ca943a932aa970886283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/gray/rounded using Guid(8fceee643229ca943a932aa970886283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1d4ac17b5e4c4752987254eaa4d1e3c') in 0.0139804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_1.prefab
+  artifactKey: Guid(050bc2133fe008f47940192024071571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_1.prefab using Guid(050bc2133fe008f47940192024071571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c38dd5bb92a321ec681e11a80e7c456') in 0.02715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_GB.png
+  artifactKey: Guid(0bd7ebb4d8b09d44ca8d8480cb9cba40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_GB.png using Guid(0bd7ebb4d8b09d44ca8d8480cb9cba40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08e141b608fdbcb6a3781f453d6648cf') in 0.0273278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_2.prefab
+  artifactKey: Guid(170cc482667dd3b438ae58157a5d5259) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_2.prefab using Guid(170cc482667dd3b438ae58157a5d5259) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59803f753d54809c0282bb2aab0f952d') in 0.033955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons
+  artifactKey: Guid(8b1b317c9a77dae488ffa8adc8273ab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons using Guid(8b1b317c9a77dae488ffa8adc8273ab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e377840d758a32c33824a2ad4a28d8ed') in 0.0188641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3
+  artifactKey: Guid(0a472b0e08d16724d944dd68dac74de7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3 using Guid(0a472b0e08d16724d944dd68dac74de7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7552b5a0dc88f6bdaabcfd1868f6d289') in 0.0144802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095203 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png
+  artifactKey: Guid(503088ec4a4a1d4489b47a8a26098b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png using Guid(503088ec4a4a1d4489b47a8a26098b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a659bd93e7802e690380fb391551dffc') in 0.0396132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_BT.prefab
+  artifactKey: Guid(12a23d49d2cd01a46808082f673e62de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_BT.prefab using Guid(12a23d49d2cd01a46808082f673e62de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a09bf5450f153f83f680c91e214eaa28') in 0.0254593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePixelUI/prefabs
+  artifactKey: Guid(498dfc90ecb35db479c01f0e6a780c1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs using Guid(498dfc90ecb35db479c01f0e6a780c1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3da5fa74a8cec984ce1eed960be87aa') in 0.0135289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png
+  artifactKey: Guid(14858d71a730b4943b11f958bd10ae50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png using Guid(14858d71a730b4943b11f958bd10ae50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98f77b85d7809e1f0b6c802148744d36') in 0.0316066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_2.prefab
+  artifactKey: Guid(1ee8321ded749d3459cb17ae06c5de5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_2.prefab using Guid(1ee8321ded749d3459cb17ae06c5de5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e35aa4243ee0a2646acab097c4f49dd2') in 0.0248767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab
+  artifactKey: Guid(c1cab1f5ff502444ebd7d89ca94564b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab using Guid(c1cab1f5ff502444ebd7d89ca94564b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd26cde938ff0685a7e49d66da61d02d5') in 0.0254244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_Vertical.png
+  artifactKey: Guid(a21f6be6da0a2b74abf33a7485612782) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_Vertical.png using Guid(a21f6be6da0a2b74abf33a7485612782) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c039d0108967fc82e2c5c8e862831d9c') in 0.0249349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons
+  artifactKey: Guid(53f838e5818bfe54db4332fe8f0c9b8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons using Guid(53f838e5818bfe54db4332fe8f0c9b8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fa615344aa2c8bb74e0a2c23b03f0ec') in 0.0133362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png
+  artifactKey: Guid(47d2e7097cc912d40971fcca6913d3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png using Guid(47d2e7097cc912d40971fcca6913d3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1146b37e414b31e7bd45e85d5d50c5d') in 0.0247648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/square/buttons
+  artifactKey: Guid(df3ce9a0a01c6454db229d439df09ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/square/buttons using Guid(df3ce9a0a01c6454db229d439df09ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d408ce3b22378af62dea5e812fa16f9') in 0.0160148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png
+  artifactKey: Guid(3ec822cb93351794ea0f21230f0d5d03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png using Guid(3ec822cb93351794ea0f21230f0d5d03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1036e6b5ba89007294954712ea30946') in 0.024512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.270 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2715ms
+	BeginReloadAssembly (433ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (560ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (361ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5012 unused Assets / (1.1 MB). Loaded Objects now: 5603.
+Memory consumption went from 104.1 MB to 103.0 MB.
+Total: 15.026300 ms (FindLiveObjects: 0.845800 ms CreateObjectMapping: 0.482100 ms MarkObjects: 10.956300 ms  DeleteObjects: 2.740500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
