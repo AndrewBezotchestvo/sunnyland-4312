@@ -1,27 +1,27 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16236 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-03051" at "2026-03-01T12:30:25.2940083Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-03-15T10:05:15.4356914Z"
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16236 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-01T12:30:25Z
+Date: 2026-03-15T10:05:15Z
 
 COMMAND LINE ARGUMENTS:
-E:\unity\6000.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker4
 -projectPath
-E:/GitHub/sunnyland-4312/sunnyland2DВ4312
+F:/GitHub/sunnyland-4312/sunnyland2DВ4312
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-64985
+50860
 -licensingIpc
-LicenseClient-03051
+LicenseClient-Admin
 -job-worker-count
 11
 -background-job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-03051
 1
 -name
 AssetImport
-Successfully changed project path to: E:/GitHub/sunnyland-4312/sunnyland2DВ4312
-E:/GitHub/sunnyland-4312/sunnyland2DВ4312
+Successfully changed project path to: F:/GitHub/sunnyland-4312/sunnyland2DВ4312
+F:/GitHub/sunnyland-4312/sunnyland2DВ4312
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,14 +67,14 @@ E:/GitHub/sunnyland-4312/sunnyland2DВ4312
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [24848]  Target information:
+Player connection [25152]  Target information:
 
-Player connection [24848]  * "[IP] 192.168.31.11 [Port] 0 [Flags] 2 [Guid] 953734738 [EditorId] 953734738 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25152]  * "[IP] 192.168.31.11 [Port] 0 [Flags] 2 [Guid] 691241168 [EditorId] 691241168 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24848]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 953734738 [EditorId] 953734738 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25152]  * "[IP] 10.0.85.2 [Port] 0 [Flags] 2 [Guid] 691241168 [EditorId] 691241168 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25152] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25152] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,62 +86,62 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 15.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
-[Subsystems] Discovering subsystems at path E:/unity/6000.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/GitHub/sunnyland-4312/sunnyland2DВ4312/Assets
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHub/sunnyland-4312/sunnyland2DВ4312/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
     Vendor:   ATI
     VRAM:     8170 MB
-    Driver:   31.0.12027.9001
+    Driver:   31.0.21923.11000
 Initialize mono
-Mono path[0] = 'E:/unity/6000.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'E:/unity/6000.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/unity/6000.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/unity/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/unity/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002311 seconds.
-- Loaded All Assemblies, in  0.786 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004733 seconds.
+- Loaded All Assemblies, in  0.982 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.803 seconds
-Domain Reload Profiling: 1588ms
-	BeginReloadAssembly (246ms)
+- Finished resetting the current domain, in  1.163 seconds
+Domain Reload Profiling: 2139ms
+	BeginReloadAssembly (322ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (351ms)
-		LoadAssemblies (245ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (346ms)
-			TypeCache.Refresh (343ms)
-				TypeCache.ScanAssembly (316ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (414ms)
+				TypeCache.ScanAssembly (375ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (803ms)
+	FinalizeReload (1164ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (718ms)
+		SetupLoadedEditorAssemblies (1046ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (91ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (179ms)
-			ProcessInitializeOnLoadAttributes (276ms)
-			ProcessInitializeOnLoadMethodAttributes (165ms)
+			InitializePlatformSupportModulesInManaged (142ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,290 +149,3 @@ Domain Reload Profiling: 1588ms
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              f54e2378c4424a73a2b456c5d7155f54
-  Correlation Id:          86bc515bc26437610fb596eab32ecbb1
-  External correlation Id: 2101590836821824733
-  Machine Id:              fl+u5cdejddwypgSW6GhqK0MRfU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-03051" (connect: 0.00s, validation: 0.00s, handshake: 2.93s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-03051-notifications" at "2026-03-01T12:30:28.2266678Z"
-[Licensing::Module] Licensing Background thread has ended after 2.93s
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 10171059585381-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  1.327 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.283 seconds
-Domain Reload Profiling: 2609ms
-	BeginReloadAssembly (362ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (791ms)
-		LoadAssemblies (601ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (394ms)
-			TypeCache.Refresh (297ms)
-				TypeCache.ScanAssembly (272ms)
-			BuildScriptInfoCaches (80ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1284ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1066ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (294ms)
-			ProcessInitializeOnLoadAttributes (635ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5051 unused Assets / (1.2 MB). Loaded Objects now: 5652.
-Memory consumption went from 103.3 MB to 102.0 MB.
-Total: 15.533500 ms (FindLiveObjects: 0.982000 ms CreateObjectMapping: 0.585300 ms MarkObjects: 11.848900 ms  DeleteObjects: 2.115700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14725.705356 seconds.
-  path: Assets/SimplePixelUI
-  artifactKey: Guid(b6dfbabbab80ecc4fb5dd3bfc992cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI using Guid(b6dfbabbab80ecc4fb5dd3bfc992cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dafd53c0dcabc68a6e27ef7a7a1ce3d2') in 0.0082286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.726632 seconds.
-  path: Assets/SimplePixelUI/artwork
-  artifactKey: Guid(225de32f8fed06f4ca6486d89d08abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork using Guid(225de32f8fed06f4ca6486d89d08abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '575efc695aef5cc8c0fd091b483c0465') in 0.0013294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.814201 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible
-  artifactKey: Guid(a28442795d3458b49a9b4c24c1f84af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible using Guid(a28442795d3458b49a9b4c24c1f84af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3624810018f86a432b30477812df28d') in 0.0007532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.510625 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded
-  artifactKey: Guid(a149011ad80bea04e8233471eb6fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded using Guid(a149011ad80bea04e8233471eb6fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0af75f0c45c4e95e4628c2777f51427c') in 0.0007946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107713 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png
-  artifactKey: Guid(8117ad03e7d28324f97b6eddfdcd1e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png using Guid(8117ad03e7d28324f97b6eddfdcd1e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebf0ee40ff0fedfd2cae72453591be91') in 0.1736154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png
-  artifactKey: Guid(507d7869273b8054b8ca31e853b6b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png using Guid(507d7869273b8054b8ca31e853b6b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94866668ffbd2abbd585f6c2faf066ae') in 0.0214157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png
-  artifactKey: Guid(ff24c02cb4cb49e4785ad1a46df6a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png using Guid(ff24c02cb4cb49e4785ad1a46df6a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7ba3ec2e8c39a63a62945a6f4fcc1b') in 0.0219275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png
-  artifactKey: Guid(7554aabff725fdc419da6efe95d2adf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png using Guid(7554aabff725fdc419da6efe95d2adf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7c8fe82b26baa9890cea3458377b16a') in 0.0257284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.749117 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square
-  artifactKey: Guid(7e617f2d40d560b419f50ef2985bd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square using Guid(7e617f2d40d560b419f50ef2985bd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd78887111c8dbb58a1cb497c1f659532') in 0.0007646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065467 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png
-  artifactKey: Guid(e4b7033fca3bc0e4192a1b77d73431d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png using Guid(e4b7033fca3bc0e4192a1b77d73431d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24860dd139154fc8431f7bf32195f3b0') in 0.0223159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png
-  artifactKey: Guid(82306ec1555e74d41b5fc97d5e09f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png using Guid(82306ec1555e74d41b5fc97d5e09f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c5a0318cfe959cf32c7ac923bc95cc') in 0.0221984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/slot.png
-  artifactKey: Guid(4a7e5d2419d92754da4c0f6996f2e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/slot.png using Guid(4a7e5d2419d92754da4c0f6996f2e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '685628bee89df1af781662b377bbb182') in 0.0259827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.710855 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons
-  artifactKey: Guid(53f838e5818bfe54db4332fe8f0c9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons using Guid(53f838e5818bfe54db4332fe8f0c9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b682d2c5ba6a23f484f55006fa45c2a7') in 0.0010748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081269 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png
-  artifactKey: Guid(145f9f42fbe978947a25b213c84e7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png using Guid(145f9f42fbe978947a25b213c84e7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '243242a9a266ddd572e5546c8c3170ab') in 0.0265576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 702.808296 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfaeb9f0aafb94cde709daad8ff5b693') in 0.1235277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
-  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab1eb0da55757003786be1fe6872d2a7') in 0.0294932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '368b64646c02902e8e9f92bbbb03d757') in 0.0269669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e70c4e6e7acd80abbc9f50193e75440a') in 0.0478633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.226127 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b45683755b82c1bdfbe28720785137d6') in 0.1106663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat
-  artifactKey: Guid(6751ce1a4611b3940812c13a6847d94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat using Guid(6751ce1a4611b3940812c13a6847d94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c83f358e62ef9ce10fc4eaff10127c4') in 0.0240045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
-  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68e58c30e320a81dee4bf4299e34aef4') in 0.0383452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat
-  artifactKey: Guid(90722b8bd74d9aa49958562aff7bdf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat using Guid(90722b8bd74d9aa49958562aff7bdf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0859e6e1e9138b67512d2c406419c8c6') in 0.0126733 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
-  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53502440be207b40da0ffd201eee0045') in 0.0140962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat
-  artifactKey: Guid(967f61bb1e3e28645a39e0cb647cc79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat using Guid(967f61bb1e3e28645a39e0cb647cc79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dba7ecc8d86928c00e63ea098551214f') in 0.0303783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat
-  artifactKey: Guid(947a44964e53bf0448ff698b2a2219c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat using Guid(947a44964e53bf0448ff698b2a2219c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a028940f4f7aff7dde174ad798b7650') in 0.1073335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat
-  artifactKey: Guid(8d176c01131de8f46ad61094e29d79b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat using Guid(8d176c01131de8f46ad61094e29d79b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9900ef28995f032937462569aa796b9d') in 0.023861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
-  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2c1d317921f102ef239feebe5f37af4') in 0.1670909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,27 +1,27 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16236 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-03051" at "2026-03-01T12:30:25.3070881Z"
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16236 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-03-15T10:05:15.4765035Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-01T12:30:25Z
+Date: 2026-03-15T10:05:15Z
 
 COMMAND LINE ARGUMENTS:
-E:\unity\6000.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-E:/GitHub/sunnyland-4312/sunnyland2DВ4312
+F:/GitHub/sunnyland-4312/sunnyland2DВ4312
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64985
+50860
 -licensingIpc
-LicenseClient-03051
+LicenseClient-Admin
 -job-worker-count
 11
 -background-job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-03051
 1
 -name
 AssetImport
-Successfully changed project path to: E:/GitHub/sunnyland-4312/sunnyland2DВ4312
-E:/GitHub/sunnyland-4312/sunnyland2DВ4312
+Successfully changed project path to: F:/GitHub/sunnyland-4312/sunnyland2DВ4312
+F:/GitHub/sunnyland-4312/sunnyland2DВ4312
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,14 +67,14 @@ E:/GitHub/sunnyland-4312/sunnyland2DВ4312
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [26772]  Target information:
+Player connection [26944]  Target information:
 
-Player connection [26772]  * "[IP] 192.168.31.11 [Port] 0 [Flags] 2 [Guid] 2419790373 [EditorId] 2419790373 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26944]  * "[IP] 192.168.31.11 [Port] 0 [Flags] 2 [Guid] 3335315722 [EditorId] 3335315722 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26772]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2419790373 [EditorId] 2419790373 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26944]  * "[IP] 10.0.85.2 [Port] 0 [Flags] 2 [Guid] 3335315722 [EditorId] 3335315722 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26772] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26772] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26944] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,62 +86,62 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
-[Subsystems] Discovering subsystems at path E:/unity/6000.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/GitHub/sunnyland-4312/sunnyland2DВ4312/Assets
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHub/sunnyland-4312/sunnyland2DВ4312/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
     Vendor:   ATI
     VRAM:     8170 MB
-    Driver:   31.0.12027.9001
+    Driver:   31.0.21923.11000
 Initialize mono
-Mono path[0] = 'E:/unity/6000.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'E:/unity/6000.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/unity/6000.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/unity/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/unity/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002147 seconds.
-- Loaded All Assemblies, in  0.795 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004380 seconds.
+- Loaded All Assemblies, in  0.943 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.793 seconds
-Domain Reload Profiling: 1587ms
-	BeginReloadAssembly (250ms)
+- Finished resetting the current domain, in  1.188 seconds
+Domain Reload Profiling: 2125ms
+	BeginReloadAssembly (327ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (348ms)
-		LoadAssemblies (248ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (321ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (342ms)
-			TypeCache.Refresh (339ms)
-				TypeCache.ScanAssembly (313ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (381ms)
+				TypeCache.ScanAssembly (346ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (794ms)
+	FinalizeReload (1189ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (709ms)
+		SetupLoadedEditorAssemblies (1071ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (93ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (178ms)
-			ProcessInitializeOnLoadAttributes (278ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
+			InitializePlatformSupportModulesInManaged (131ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (263ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (220ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,186 +149,3 @@ Domain Reload Profiling: 1587ms
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              f2eeac0650b142f1b07fb744ad215d46
-  Correlation Id:          86bc515bc26437610fb596eab32ecbb1
-  External correlation Id: 3736294009946748296
-  Machine Id:              fl+u5cdejddwypgSW6GhqK0MRfU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-03051" (connect: 0.00s, validation: 0.00s, handshake: 2.92s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-03051-notifications" at "2026-03-01T12:30:28.2344975Z"
-[Licensing::Module] Licensing Background thread has ended after 2.93s
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 10171059585381-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  1.359 seconds
-Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.260 seconds
-Domain Reload Profiling: 2617ms
-	BeginReloadAssembly (353ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (832ms)
-		LoadAssemblies (572ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (457ms)
-			TypeCache.Refresh (330ms)
-				TypeCache.ScanAssembly (303ms)
-			BuildScriptInfoCaches (108ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1261ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1029ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (274ms)
-			ProcessInitializeOnLoadAttributes (622ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5051 unused Assets / (1.2 MB). Loaded Objects now: 5652.
-Memory consumption went from 105.2 MB to 104.1 MB.
-Total: 12.652700 ms (FindLiveObjects: 0.789400 ms CreateObjectMapping: 0.551900 ms MarkObjects: 9.187400 ms  DeleteObjects: 2.123100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14754.895998 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png
-  artifactKey: Guid(ebe09f4a5655764478eb1eaf871ee9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png using Guid(ebe09f4a5655764478eb1eaf871ee9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55fa3f3c2afab0f2d5efebe26498f012') in 0.159784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png
-  artifactKey: Guid(15a522d0e2dce05478bf9edcacc4297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png using Guid(15a522d0e2dce05478bf9edcacc4297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d872eb8e91157c6c8ec7bfdb955022') in 0.0207495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png
-  artifactKey: Guid(8b583b44f41f3a5408af4c2b94fda721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png using Guid(8b583b44f41f3a5408af4c2b94fda721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e2d1f3d368e5dfc01b36200ec4ef1fd') in 0.0218142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.853661 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png
-  artifactKey: Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png using Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e83cbd714291b158b224d8475e6b45c') in 0.0202726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png
-  artifactKey: Guid(2a5bbba961e88c446baa1abd22683e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png using Guid(2a5bbba961e88c446baa1abd22683e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '538fb1a8e6f06e035f81a64b3fb6c6f1') in 0.0182718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001134 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png
-  artifactKey: Guid(e48b869e1b13ad54295d3d9efb9e78bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png using Guid(e48b869e1b13ad54295d3d9efb9e78bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bbead8e5c448b519e0d8c837eab0f81') in 0.0217914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.804962 seconds.
-  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button_rounded_CC.png
-  artifactKey: Guid(434fa6af2ca63ad4ba4ea00b9270653b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button_rounded_CC.png using Guid(434fa6af2ca63ad4ba4ea00b9270653b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f066c5f4b2ba103df02c85796ec4d7b4') in 0.0288148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 702.794815 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89f012c8ab64b6603fd12cf93517a137') in 0.123712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset
-  artifactKey: Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset using Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '961f6ca9989f9239e51719f714b2d5bb') in 0.0490127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
-  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a11e5336fb555c991791d3f326b9be4') in 0.0262414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0769c01ef3db5d24638813d76132493') in 0.0269717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.228882 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8d0edb9e3041c600249d4dff34dce63') in 0.2157576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
-  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2de0b646ec3cdc606fb332c3cee13028') in 0.0844567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
-  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a88cff7d8978dc83ad918ef5aff02fa6') in 0.2523466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

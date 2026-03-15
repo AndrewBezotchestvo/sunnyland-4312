@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float HP = 100;
-    public float MaxHP = 100;
-    public float Score = 0;
+    public int HP = 100;
+    public int MaxHP = 100;
+    public int Score = 0;
     void Start()
     {
         
