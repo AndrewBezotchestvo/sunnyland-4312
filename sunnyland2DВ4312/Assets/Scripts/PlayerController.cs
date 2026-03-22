@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public int Score = 0;
     void Start()
     {
-        
+        HP = MaxHP;
     }
 
     // Update is called once per frame

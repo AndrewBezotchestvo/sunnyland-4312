@@ -19,6 +19,8 @@ public class UIGameController : MonoBehaviour
     
     void Update()
     {
+        if (player.HP <= 0) Restart();
+        
         scoreText.text = $"{player.Score}";
         lifesText.text = $"{player.HP}";
 
